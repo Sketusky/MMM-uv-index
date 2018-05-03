@@ -3,6 +3,8 @@ UV Index from openweathermap.org for MagicMirror²
 
 [MagicMirror Project on Github](https://github.com/MichMich/MagicMirror)
 
+![Preview Image](image.png)
+
 ## Usage 
 
 To use this module, go to the *modules* subfolder of your mirror and clone this repository.
