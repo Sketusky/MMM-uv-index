@@ -1,0 +1,29 @@
+.value {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.scale {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.green {
+    color: #289500;
+}
+
+.yellow {
+    color: #f7e400;
+}
+
+.orange {
+    color: #f85900;
+}
+
+.red {
+    color: #d80010;
+}
+
+.violet {
+    color: #6b49c8;
+}
