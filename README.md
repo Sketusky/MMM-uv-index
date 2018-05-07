@@ -40,5 +40,19 @@ You may want to set the following options in the config section as well:
 | `colors` | Makes UV scale name colorful<br><br>**Possible values:** `true` or `false`<br>**Default value:** `true` | 
 | `updateInterval` | How often would you like to update data? (Miliseconds)<br><br>**Default value:** `3600000` (1 hour)<br>[Used Scale](https://www.epa.gov/sunsafety/uv-index-scale-1)| 
 
-### Known Issues
-en, pl languages only works
+## Supported languages
+English<br>
+Dutch<br>
+Polish<br>
+<br>
+Feel free to open new issue and submit translation for your langauge!
+
+## Known Issues
+
+
+## Changelog
+### 1.0.1 - 07.05.2018
+Added Dutch language [ISSUE](https://github.com/Sketusky/MMM-uv-index/issues/1)<br>
+Introduced changelog and version information
+### 1.0.0 - 03.05.2018
+First working version of module
