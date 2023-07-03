@@ -19,9 +19,9 @@ Module.register("MMM-uv-index", {
         initialLoadDelay: 0, // 0 seconds delay
         retryDelay: 2500,
 
-        apiVersion: "2.5",
+        apiVersion: "3.0",
         apiBase: "https://api.openweathermap.org/data/",
-        uvEndpoint: "uvi",
+        uvEndpoint: "onecall",
 
     },
 
@@ -164,13 +164,13 @@ Module.register("MMM-uv-index", {
     },
 
     processUV: function(data) {
-        if (!data || typeof data.value === "undefined") {
+        if (!data || typeof data.current.uvi === "undefined") {
             // Did not receive usable new data.
             // Maybe this needs a better check?
             return;
         }
 
-        this.value = data.value;
+        this.value = data.current.uvi;
 
         this.show(this.config.animationSpeed, {
             lockString: this.identifier
