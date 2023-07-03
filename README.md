@@ -7,7 +7,7 @@ UV Index from openweathermap.org for MagicMirror²
 
 ## Usage 
 
-To use this module, go to the *modules* subfolder of your mirror and clone this repository.
+To use this module, go to the *modules* subfolder of your mirror and clone this repository. You will need a subscription to the Openweathermap OneCall API 3.0. The first 1000 calls are free, so personal use should incur no cost. Set the rate limit to 999 per day to make sure you don't get charged, even if the module or MagicMirror were to get stuck in a loop somehow.
 ```
 git clone https://github.com/Sketusky/MMM-uv-index
 ```
